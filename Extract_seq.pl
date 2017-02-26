@@ -5,7 +5,7 @@
 
 #This program requires folder named as "genomes","queries" and "hmm_prof_align" in current working directory 
 #It requires 3 command line arguments passed while using it
-#		perl Extract_seq.pl <current working directory path> <text_file_database_list> <text_file_queries_list> <number_of_nucleotides_flank>
+#		perl Extract_seq.pl <current working directory path> <text_file_database_list> <text_file_queries_list>
 #	<current working directory path> : It is the path of current working directory which contains genomes and queries folder
 #	<text_file_database_list> : It is text file that contains list of genomes in genomes folder without ".fasta". Each line should contain one genome name. It should be located in current working directory
 #	<text_file_queries_list>  : It is a text file that contains list of queries in the query folder without ".fasta". Each line should contain one query name.It should be located in current working directory
