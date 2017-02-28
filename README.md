@@ -2,7 +2,7 @@
 
 	This pipeline is to extract loci from given taxa using nhmmer and blast
 
-	This program requires folder named as "genomes","queries" and "hmm_prof_align" in current working directory 
+	This program requires folder named as "genomes","queries" and "hmm_prof_align" in current working directory.This pipeline requires 	blast and hammer either in root directory or CWD.
 	It requires 3 command line arguments passed while using it.
 
 	 perl Extract_seq.pl <current working directory path> <text_file_database_list> <text_file_queries_list>
